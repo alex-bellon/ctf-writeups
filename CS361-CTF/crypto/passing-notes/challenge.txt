@@ -1,0 +1,11 @@
+You start seeing people pass notes:
+
+friend 1: 0x2:0x10abd6bdefdc9f8dfca4ce12d50a29814d4c3d
+friend 1: banana
+friend 2: apple
+
+Afterwards the conversation doesn't make sense
+
+0xd7beb91bdc4e7db78656d7c8312a151c77cad
+
+See if you can find out what they're talking about
