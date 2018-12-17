@@ -1,0 +1,5 @@
+Fill the buffer with 96 bytes of whatever, then make last 4 bytes the address of the return address from scanf. That is located above:
+
+| pass 2 |
+| pass 1 | <---- might be more stuff here, check in gdb
+| return |

@@ -1,0 +1,1 @@
+SSH into `leviathan0@leviathan.labs.overthewire.org` on port 2223. `cd` into the home directory, `ls -a`. Theres not much that's interesting except for a .backup folder. Inside of it is a file called `bookmarks.html`, which is a billion lines long. The site said you are looking for passwords (rather than flags) so I `grep password bookmarks.html` and the password pops up. Nice.

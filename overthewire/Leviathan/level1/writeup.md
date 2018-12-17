@@ -1,0 +1,1 @@
+SSH into the server, `ls` and see there is an executable file called `check`. Try to run it, and it requires a password. Run `ltrace check` and it shows that it is checking the password agians `sex`. Classy. Run `./check` again and put in `sex` as the password, and we get a shell as leviathan2. `cat /etc/leviathan_pass/leviathan2` and we get the password.
