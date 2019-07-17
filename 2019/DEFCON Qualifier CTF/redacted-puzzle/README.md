@@ -67,4 +67,21 @@ I repeated this manually (yes I'm sure there was a better way but oh well) for a
 10011111
 ```
 
-I tried interpreting them directly as ASCII but just got gibberish. After a lot of fiddling, I figured out you have to concatenate them all together, and then split them into 5 bit chunks. You only needed 5 because there were only 32 letters in the alphabet they gave us, which can be represented in 5 bits (2^5 = 32). Then the 5 bit chunks could be interpreted as indices into the alphabet, and could be used to get the flag: `OOO{FORCES-GOVERN+TUBE+FRUIT_GROUP=FALLREMEMBER_WEATHER}`
+I tried interpreting them directly as ASCII but just got gibberish. After a lot of fiddling, I figured out you have to concatenate them all together, and then split them into 5 bit chunks. You only needed 5 because there were only 32 letters in the alphabet they gave us, which can be represented in 5 bits (2^5 = 32). Then the 5 bit chunks could be interpreted as indices into the alphabet, and could be used to get the flag:
+
+```python
+alphabet = '+-=ABCDEFGHIJKLMNOPQRSTUVWXYZ_{}'
+bits = '1000110001100011111001000100011010000101001111010100001010011000111000001111010010000000001011010111001000011100000010001010010111010111011011101010011010010001101111001000010010000001101110011101010000111011110011101111001000011110100111011100100111000111011001010001111010011111'
+
+index = 0
+result = ''
+
+while index < len(bits):
+    chunk = int(bits[index:index+5], 2)
+    result += alphabet[chunk]
+    index += 5
+
+print(result)
+```
+
+Then we get the flag: `OOO{FORCES-GOVERN+TUBE+FRUIT_GROUP=FALLREMEMBER_WEATHER}`
