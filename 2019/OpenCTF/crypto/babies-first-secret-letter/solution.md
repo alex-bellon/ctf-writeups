@@ -1,0 +1,1 @@
+Tehy said that I hed to make a challenge if I wanted to go to evary fabulas party. I said "laim" annd gitted to work. Its not great and definitely is not solveble butt I can be briebed andd as a bonus I'll get into the partays. Parhaps you are thinking that will be rally obvias but we don't test vary much. Eny how, I wouldn't mind a drank or a plait of piza. Your choice.
