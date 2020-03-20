@@ -1,0 +1,5 @@
+→ dd if=hex of=result.jpg skip=878 bs=1             
+102530+0 records in
+102530+0 records out
+102530 bytes (103 kB, 100 KiB) copied, 0.146076 s, 702 kB/s
+
