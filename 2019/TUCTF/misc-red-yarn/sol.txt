@@ -1,0 +1,3 @@
+→ strings DEBUG.COM | grep CTF
+TUCTF{D0NT_F0RG3T_TH3_B4S1CS!}
+

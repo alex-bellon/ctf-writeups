@@ -1,0 +1,7 @@
+view-source:http://chal.tuctf.com:30004/img
+
+view-source:http://chal.tuctf.com:30004/img/TODO.txt
+
+view-source:http://chal.tuctf.com:30004/flag.php
+
+<link href="test.css" rel="stylesheet" type="text/css">TODO: put more stuff here before the test<br>Then print the flag TUCTF{d0nt_l34v3_y0ur_d1r3ct0ry_h4n61n6}<meta http-equiv='refresh' content='0;url=index.html'>
