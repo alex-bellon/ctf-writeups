@@ -1,0 +1,1 @@
+flag{bad_auth_headers_suck}
